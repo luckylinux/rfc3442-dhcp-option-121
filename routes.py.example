@@ -7,8 +7,8 @@
 
 routes = [
     # Destination Network        # Gateway / Router
+    #
     # DO NOT FORGET TO PUT THE DEFAULT GATEWAY FIRST
-    # Source: https://www.medo64.com/2018/01/configuring-classless-static-route-option/ (workaround for Ubuntu 19.10 Server)
     # This is typically the LAN IP Address of your OPNSense/PFSense Instance
     ('0.0.0.0/0'         ,        '192.168.1.1'),
     #
