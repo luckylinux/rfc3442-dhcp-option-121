@@ -6,6 +6,11 @@ This Python Generator Script is based on this [GitHub Gist](https://gist.github.
 
 The Default Gateway is added BEFORE all other entries, according to [this](https://www.medo64.com/2018/01/configuring-classless-static-route-option/) other RFC3442 Generator.
 
+# Purpose
+The purpose of DHCP Option 121 or Classless DHCP Static Routing is to push the Static Routes definition from the DHCP Server to the DHCP Client.
+
+In this way, all DHCP Clients automatically receive the Static Routes Table from the DHCP Server, thus avoiding the need to manually define (and maintain) Static Routes on each and every single one of your Devices.
+
 # Technical Explanation
 A great technical explanation on how the DHCP Option 121 (according to RFC3442) is generated can be found on the [OPNSense Forum](https://forum.opnsense.org/index.php?topic=1972.0).
 
