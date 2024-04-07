@@ -24,10 +24,14 @@ git clone https://github.com/luckylinux/rfc3442-dhcp-option-121.git
 cd https://github.com/luckylinux/rfc3442-dhcp-option-121
 ```
 
-Edit `routes.py` using your preferred text editor and enter **all** the required routes.
+Copy the example `routes.py.example` to `routes.py` and using your preferred text editor enter **all** the required routes.
 
 For instance using `nano`:
 ```
+# Copy example routes.py
+cp routes.py.example routes.py
+
+# Modify the file
 nano routers.py
 ```
 
