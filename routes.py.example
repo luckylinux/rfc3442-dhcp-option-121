@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+## This File includes the Static Routes Definition
+
+## DO NOT REMOVE THE DEFAULT GATEWAY ENTRY (1st element of the array)
+## You may need to adjust its IP address of course depending on your Network Setup
+
+routes = [
+    # Destination Network        # Gateway / Router
+    # DO NOT FORGET TO PUT THE DEFAULT GATEWAY FIRST
+    # Source: https://www.medo64.com/2018/01/configuring-classless-static-route-option/ (workaround for Ubuntu 19.10 Server)
+    # This is typically the LAN IP Address of your OPNSense/PFSense Instance
+    ('0.0.0.0/0'         ,        '192.168.1.1'),
+    #
+    #
+    #
+    # Additional static mappings
+    ('172.1.0.0/16'      ,       '192.168.2.1'),
+    ('172.2.0.0/16'      ,       '192.168.2.2'),
+    ('172.3.0.0/16'   ,          '192.168.2.3'),
+]
