@@ -21,7 +21,7 @@ Therefore make sure you add **ALL** the required networks/gateways in the array 
 Clone the Repository:
 ```
 git clone https://github.com/luckylinux/rfc3442-dhcp-option-121.git
-cd https://github.com/luckylinux/rfc3442-dhcp-option-121
+cd rfc3442-dhcp-option-121
 ```
 
 Copy the example `routes.py.example` to `routes.py` and using your preferred text editor enter **all** the required routes.
